@@ -1,9 +1,15 @@
 <html>
-<head>
-<script type="text/javascript" src="unittest.js"></script>
-<script type="text/javascript" src="../Maze.js"></script>
-<script type="text/javascript" src="MazeTests.js"></script>
-</head>
-<body>
-</body>
+  <head>
+    <link rel="stylesheet" href="qunit-1.10.0.css"></link>
+    <script type="text/javascript" src="qunit-1.10.0.js"></script>
+    <script type="text/javascript" src="../Maze.js"></script>
+    <script type="text/javascript">
+      test("Create Maze", function() {
+        var maze = new Maze();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="qunit"></div>
+  </body>
 </html>
